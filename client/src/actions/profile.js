@@ -38,7 +38,7 @@ export const createProfile = (formData, history, edit = false) => async (
 			payload: res.data,
 		});
 
-		dispatch(setAlert(edit ? 'Profile Updated' : 'ProfileCreated'));
+		dispatch(setAlert(edit ? 'Profile Updated' : 'ProfileCreated', 'success'));
 
 		//use history.push to redirect after creating profile
 		if (!edit) {
