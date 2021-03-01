@@ -1,5 +1,5 @@
 {
     "mongoURI": "mongodb+srv://admin:admin@merncluster.sbifb.mongodb.net/MERNtest?retryWrites=true&w=majority",
     "jwtSecret": "secrettoken",
-    "githubToken": "805215eebc5b92a200ba4f077e471637b15a6032"
+    "githubToken": "e021d9ef857e703101762638f07bf2388c332136"
 }
