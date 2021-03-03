@@ -15,9 +15,9 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
 				<Spinner />
 			) : (
 				<Fragment>
-					<h1 className='large text-primary'>Developers</h1>
+					<h1 className='large text-primary'>Freelancers</h1>
 					<p className='lead'>
-						<i className='fab fa-connectdevelop'></i> Browse and connect with
+						<i className='fab fa-connectdevelop'></i> See the list of current
 						developers
 					</p>
 					<div className='profiles'>

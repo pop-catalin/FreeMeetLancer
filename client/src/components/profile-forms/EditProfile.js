@@ -86,17 +86,15 @@ const EditProfile = ({
 					<select name='status' value={status} onChange={(e) => onChange(e)}>
 						<option value='0'>* Select Professional Status</option>
 						<option value='Developer'>Developer</option>
-						<option value='Junior Developer'>Junior Developer</option>
-						<option value='Senior Developer'>Senior Developer</option>
-						<option value='Manager'>Manager</option>
+						<option value='SEO Expert'>SEO Expert</option>
+						<option value='Musician'>Musician</option>
+						<option value='Graphic Designer'>Graphic Designer</option>
+						<option value='Social Media Expert'>Social Media Expert</option>
 						<option value='Student or Learning'>Student or Learning</option>
 						<option value='Instructor'>Instructor or Teacher</option>
-						<option value='Intern'>Intern</option>
 						<option value='Other'>Other</option>
 					</select>
-					<small className='form-text'>
-						Give us an idea of where you are at in your career
-					</small>
+					<small className='form-text'>Select your main freelancer role</small>
 				</div>
 				<div className='form-group'>
 					<input
@@ -131,7 +129,7 @@ const EditProfile = ({
 						onChange={(e) => onChange(e)}
 					/>
 					<small className='form-text'>
-						City & state suggested (eg. Boston, MA)
+						City and Country (ex. Baia Mare, Romania)
 					</small>
 				</div>
 				<div className='form-group'>
@@ -156,7 +154,7 @@ const EditProfile = ({
 					/>
 					<small className='form-text'>
 						If you want your latest repos and a Github link, include your
-						username
+						username (options for other freelancers soon)
 					</small>
 				</div>
 				<div className='form-group'>
@@ -166,7 +164,7 @@ const EditProfile = ({
 						value={bio}
 						onChange={(e) => onChange(e)}
 					></textarea>
-					<small className='form-text'>Tell us a little about yourself</small>
+					<small className='form-text'>Tell us about yourself</small>
 				</div>
 
 				<div className='my-2'>
